@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Flask</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+        input {
+            padding: 8px;
+        }
+        button {
+            padding: 8px;
+            background: purple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
